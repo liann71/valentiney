@@ -24,11 +24,13 @@ body {
     font-family: 'Nunito';
     font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: beige; /* Change text color to beige */
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
+    text-shadow: 0 0 10px black; /* Add a black glow effect */
 }
+
 
 .buttons {
     display: flex;
