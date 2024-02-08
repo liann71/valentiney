@@ -6,6 +6,15 @@ body {
     background-color: #F8C8DC;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
 /* Position the "No" button absolutely within body */
 #noButton {
     position: absolute;
@@ -58,6 +67,19 @@ body {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn2 {
+    background-color: #FFB6C1;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px; /* Adjust margin for spacing */
     cursor: pointer;
     border: none;
     border-radius: 12px;
