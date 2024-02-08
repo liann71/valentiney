@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #F8C8DC;
+    background-color: #F5F5DC;
 }
 
 .container {
@@ -33,10 +33,11 @@ body {
     font-family: 'Nunito';
     font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: #FF69B4; /* Pink color for cuteness */
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a black shadow */
 }
 
 .text {
