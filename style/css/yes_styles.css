@@ -52,7 +52,7 @@ body {
 }
 
 .btn {
-    background-color: #FFB6C1;
+    background-color: #d14f63;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -62,11 +62,18 @@ body {
     cursor: pointer;
     border: none;
     border-radius: 12px;
-    transition: background-color 0.3s ease;
+    
 }
 
+.btn:hover{
+transition: 0.3s;
+background-color: #FFB6C1; 
+}
+
+
+
 .btn2 {
-    background-color: #FFB6C1;
+    background-color: #d14f63;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -75,11 +82,11 @@ body {
     cursor: pointer;
     border: none;
     border-radius: 12px;
-    transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-    background-color: #FAF9F6;
+.btn2:hover {
+    background-color: #FFB6C1;
+    transition: background-color 0.3s;
 }
 
 .gif_container {
